@@ -7,6 +7,7 @@ public class TRLApp
 
 	public static void main(String[] args)
 	{
+		
 		cStore = new CopyStore();
 		pStore = new PatronStore();
 
@@ -17,6 +18,7 @@ public class TRLApp
 
 		boolean quitting = false;
 
+		
 		while (!quitting)
 		{
 			printMenu();

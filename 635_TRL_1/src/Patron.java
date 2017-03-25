@@ -5,7 +5,7 @@ public class Patron
 	private String name;
 	private String patronID;
 	private ArrayList<Copy> copiesOut;
-
+ 
 	public Patron(String n, String id)
 	{
 		this.name = n;
