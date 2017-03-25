@@ -50,7 +50,6 @@ public class TRLApp
 
 		boolean result = outController.startOutTransaction(); // pStore.fetchPatron(pid);
 
-		
 		Patron p = outController.enterPatronForCheckOut(pid);
 
 		StdOut.println("Checking out copies to patron: " + p);
